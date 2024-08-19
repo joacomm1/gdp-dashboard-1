@@ -284,7 +284,7 @@ st.altair_chart(
     .mark_bar(orient="horizontal")
     .encode(
         x="units_sold",
-        y=alt.Y("item_name").sort("-text"),
+        y=alt.Y("item_name").sort("-x"),
     ),
     use_container_width=True,
 )
